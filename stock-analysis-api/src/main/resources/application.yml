@@ -27,3 +27,11 @@ server:
 logging:
   level:
     com.example.stockanalysis: DEBUG
+
+
+kiwoom:
+  grant_type: client_credentials
+  secret-key: v6pQbsgskowB0FP3ehW3m6t_M4CMTIX-cJ9Xd_CY_aw
+  app-key: Bl-4Kg2mLUjbVAGQM84hD-KZnnUpY6PcUcTZiTU2I3E
+  base-url: https://api.kiwoom.com
+  mock-base-url: https://mockapi.kiwoom.com
