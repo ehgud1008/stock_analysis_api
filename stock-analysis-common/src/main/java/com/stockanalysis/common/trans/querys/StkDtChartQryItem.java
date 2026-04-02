@@ -1,4 +1,4 @@
-package com.stockanalysis.common.ka10081;
+package com.stockanalysis.common.trans.querys;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

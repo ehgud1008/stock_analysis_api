@@ -1,4 +1,4 @@
-package com.stockanalysis.common.ka10081;
+package com.stockanalysis.common.trans.ka10081;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -8,27 +8,29 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.List;
-
+/**
+ * 주식일봉차트조회요청 (ka10081)
+ * 요청 바디 예:
+ * {
+ *   "stk_cd": "005930",
+ *   "base_dt": "20250908",
+ *   "upd_stkpc_tp": "1"
+ * }
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Response_ka10081 implements CommBody {
+public class Request_ka10081 implements CommBody {
     @JsonProperty("stk_cd")
     private String stkCd;
 
-    @JsonProperty("last_tic_cnt")
-    private String lastTicCnt;
+    @JsonProperty("base_dt")
+    private String baseDt;
 
-    @JsonProperty("stk_tic_chart_qry")
-    private List<StkDtChartQryItem> stkTicChartQry;
-
-    @JsonProperty("return_code")
-    private int returnCode;
-
-    @JsonProperty("return_msg")
-    private String returnMsg;
+    @JsonProperty("upd_stkpc_tp")
+    private String updStkpcTp;
 
 }
+

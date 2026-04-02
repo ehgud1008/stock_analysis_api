@@ -1,7 +1,7 @@
 package com.stockanalysis.kiwoom.service;
 
-import com.stockanalysis.common.au10001.Request_au10001;
-import com.stockanalysis.common.au10001.Response_au10001;
+import com.stockanalysis.common.trans.au10001.Request_au10001;
+import com.stockanalysis.common.trans.au10001.Response_au10001;
 import com.stockanalysis.config.KiwoomApiException;
 import com.stockanalysis.config.KiwoomProperties;
 import java.time.Duration;

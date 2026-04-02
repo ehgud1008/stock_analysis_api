@@ -1,4 +1,4 @@
-package com.stockanalysis.common.au10001;
+package com.stockanalysis.common.trans.au10001;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,5 +1,5 @@
 // ka10080 Request DTO
-package com.stockanalysis.common.ka10080;
+package com.stockanalysis.common.trans.ka10080;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

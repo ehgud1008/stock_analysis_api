@@ -2,10 +2,9 @@ package com.stockanalysis.auth.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.stockanalysis.common.CommRequest;
-import com.stockanalysis.common.au10001.Request_au10001;
+import com.stockanalysis.common.trans.au10001.Request_au10001;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
